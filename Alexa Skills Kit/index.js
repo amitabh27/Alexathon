@@ -106,7 +106,7 @@ const third = (source, destination, date,classtype,callback) => {
 //google
 
 const fourth = (loc,callback) => {
-        request('https://packup-bot.herokuapp.com/n/food/'+loc+'/'+'AIzaSyCweXwBZ82TU1ZdOCFoDFYhx9l75vh6E50', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/n/food/'+loc+'/'+'..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
@@ -119,7 +119,7 @@ const fourth = (loc,callback) => {
 		});
 };
 const fifth = (loc,callback) => {
-        request('https://packup-bot.herokuapp.com/n/natural/feature/'+loc+'/'+'AIzaSyCweXwBZ82TU1ZdOCFoDFYhx9l75vh6E50', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/n/natural/feature/'+loc+'/'+'..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
@@ -132,7 +132,7 @@ const fifth = (loc,callback) => {
 		});
 };
 const sixth = (loc,callback) => {
-        request('https://packup-bot.herokuapp.com/n/place/of/worship/'+loc+'/'+'AIzaSyCweXwBZ82TU1ZdOCFoDFYhx9l75vh6E50', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/n/place/of/worship/'+loc+'/'+'..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
@@ -166,7 +166,7 @@ const seventh = (source, dest, date,callback) => {
 
 
 const eighth = (no,date,callback) => {
-        request('https://packup-bot.herokuapp.com/r/livetrainstatus/'+no+'/'+date+'/48s1tado2n', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/r/livetrainstatus/'+no+'/'+date+'/..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
@@ -179,7 +179,7 @@ const eighth = (no,date,callback) => {
 		});
 };
 const ninth = (pnr,callback) => {
-        request('https://packup-bot.herokuapp.com/r/pnrstatus/'+pnr+'/48s1tado2n', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/r/pnrstatus/'+pnr+'/..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
@@ -192,7 +192,7 @@ const ninth = (pnr,callback) => {
 		});
 };
 const tenth = (date,callback) => {
-        request('https://packup-bot.herokuapp.com/r/cancelledtrains/'+date+'/48s1tado2n', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/r/cancelledtrains/'+date+'/..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
@@ -205,7 +205,7 @@ const tenth = (date,callback) => {
 		});
 };
 const eleventh = (date,callback) => {
-        request('https://packup-bot.herokuapp.com/r/rescheduledtrains/'+date+'/48s1tado2n', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/r/rescheduledtrains/'+date+'/..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
@@ -221,7 +221,7 @@ const eleventh = (date,callback) => {
 
 
 const twelth = (no,callback) => {
-        request('https://packup-bot.herokuapp.com/r/trainroute/'+no+'/48s1tado2n', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/r/trainroute/'+no+'/..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
@@ -234,7 +234,7 @@ const twelth = (no,callback) => {
 		});
 };
 const thirteen = (source,dest,date,callback) => {
-        request('https://packup-bot.herokuapp.com/r/trainbetweenstations/'+source+'/'+dest+'/'+date+'/48s1tado2n', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/r/trainbetweenstations/'+source+'/'+dest+'/'+date+'/..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
@@ -247,7 +247,7 @@ const thirteen = (source,dest,date,callback) => {
 		});
 };
 const fourteen = (source,hours,callback) => {
-        request('https://packup-bot.herokuapp.com/r/trainarrivals/'+source+'/'+hours+'/48s1tado2n', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/r/trainarrivals/'+source+'/'+hours+'/..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
@@ -260,7 +260,7 @@ const fourteen = (source,hours,callback) => {
 		});
 };
 const fifteen = (date,source,dest,no,clas,quota,callback) => {
-        request('https://packup-bot.herokuapp.com/r/seatavailability/'+no+'/'+source+'/'+dest+'/'+date+'/'+clas+'/'+quota+'/48s1tado2n', function (error, response, body) {
+        request('https://packup-bot.herokuapp.com/r/seatavailability/'+no+'/'+source+'/'+dest+'/'+date+'/'+clas+'/'+quota+'/..Key..', function (error, response, body) {
 			if (!error && response.statusCode == 200) 
 			{
 				console.log(body);
