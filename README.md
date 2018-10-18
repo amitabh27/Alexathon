@@ -49,11 +49,10 @@ List of Buses= Gives the list of all buses travelling between two endpoints on a
 
 <b>Technology Stack Used :</b>
 
-Alexa Skill Drafting on developers.amazon.com : NodeJS
-REST Server that Alexa will call for fetching real time data : NodeJS using Express
-Server Hosted on : Heroku 
-Third Party APIs : Google,RailwayAPI,GoIbibo. 
-3rd Party Servers Used: RailwayAPI , GoIbibo,Google APIs.
+Alexa Skill Drafting on developers.amazon.com : NodeJS<br>
+SDKs : NodeJS SDK for Alexa,Express Framework with Request for HTTP requests.<br>
+Third Party APIs : Google,RailwayAPI,GoIbibo. <br>
+3rd Party Servers Used: RailwayAPI , GoIbibo,Google APIs.<br>
 
 
 
