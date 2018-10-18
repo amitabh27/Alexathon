@@ -56,24 +56,5 @@ Third Party APIs : Google,RailwayAPI,GoIbibo.
 3rd Party Servers Used: RailwayAPI , GoIbibo,Google APIs.
 
 
-<b>Architecture:</b>
-1. Receive data from user 
-2. Invoke the corresponding function in index.js 
-3. Make API call to concerned API on my Heroku Server 
-4. Heroku Server Internally calls necessary 3rd part APIs for fetching real time data and does data processing
-5. Returns JSON response 
-6. Emit the response via Alexa.
 
-Working Sample :
-Started working on designing of REST server and have configured one API for finding the cheapest flight from source city to destination city on a given date (YYYYMMDD) :
-API : 
-https://alexa-travelassistant.herokuapp.com/f/cheapest/bangalore/mumbai/20180301
-JSON Response :
-{ 
-"data":
-{
-"type":"text",
-"text":"The cheapest flight available is of airline Jet Airways, flight number-2625 departing at 16:45 which costs Rs 3950"
-}
-}
 
