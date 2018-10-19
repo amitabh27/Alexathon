@@ -6,15 +6,22 @@ Developed a Alexa Skillset that would give real time information about Railways,
 
 
 
-Skill Category : Travel and Transportation
+<b>Skill Category : Travel and Transportation</b>
 
 
-Skill Description:
-Travel Assistant is a Alexa-Skill serving as a Trip Advisor. It basically eases out the headache associated with planning trips wherein you would have to search several websites for railways, flights or buses. It’s like personal assistant to whom you can talk to anytime, anywhere and it will be ready to help you out.
-It is unique because of the wide range of services it provides under one hood ranging from flight queries like cheapest flight to whole range of flights of a specific airline flying on any route TO railways queries like PNR status, Live Trian Status, Seat Availability, Train Route details, all the trains running on a specified route, Checking for whether your train is cancelled/rescheduled today, If yes then to what date and time, so on. Now comes buses which are really vital when it comes to travelling on short-trips and it becomes difficult to enquire about them anywhere, you will be amazed by the rich data it provides in terms of buses. Also it helps you to explore the tourist location by giving out list of well-known places to Worship, Eat and enjoy Natural beauties.
-Primary audience: Any common man who wishes to travel or wants to explore any location. Anyone who travels or rather want to explore a location, that is any common man of India.
-Is the skill targeted to a specific function, domain or industry: Yes It is targeted to Travel/Tourism Industry to be more specific it addresses Railways, Airways and Road Transport sectors of India.
-What primary functions/features does the Travel Agent provide:
+<b>Skill Description:</b><br>
+Travel Assistant is a Alexa-Skill serving as a Trip Advisor. It basically eases out the headache associated with planning trips wherein you would have to search several websites for railways, flights or buses. It’s like personal assistant to whom you can talk to anytime, anywhere and it will be ready to help you out.<br>
+It is unique because of the wide range of services it provides under one hood ranging from flight queries like cheapest flight to whole range of flights of a specific airline flying on any route TO railways queries like PNR status, Live Trian Status, Seat Availability, Train Route details, all the trains running on a specified route, Checking for whether your train is cancelled/rescheduled today, If yes then to what date and time, so on. Now comes buses which are really vital when it comes to travelling on short-trips and it becomes difficult to enquire about them anywhere, you will be amazed by the rich data it provides in terms of buses. Also it helps you to explore the tourist location by giving out list of well-known places to Worship, Eat and enjoy Natural beauties.<br>
+
+<b>Primary audience: </b><br>
+Any common man who wishes to travel or wants to explore any location. Anyone who travels or rather want to explore a location, that is any common man of India.
+
+
+<b>Is the skill targeted to a specific function, domain or industry: </b><br>
+Yes It is targeted to Travel/Tourism Industry to be more specific it addresses Railways, Airways and Road Transport sectors of India.
+
+<b>What primary functions/features does the Travel Agent provide:</b><br>
+
 The Functions of the Bot can be classified broadly into 4 categories:
 
 
