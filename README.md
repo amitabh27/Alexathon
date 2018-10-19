@@ -62,3 +62,7 @@ Third Party APIs : Google,RailwayAPI,GoIbibo. <br>
 3rd Party Servers Used: RailwayAPI , GoIbibo,Google APIs.<br>
 
 ![archi-DB0](https://github.com/amitabh27/Alexathon/blob/master/REST%20Server/archi.png)<br>
+
+<h5> Working Demo of the skill </h5>
+
+[![Watch the video](https://github.com/amitabh27/Alexathon/blob/master/REST%20Server/archi.png)](https://www.youtube.com/watch?v=EP5G0mf56pA&t=94s)
