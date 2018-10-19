@@ -552,3 +552,4 @@ exports.handler = function (event, context) {
     alexa.registerHandlers(handlers);
     alexa.execute();
 };
+
