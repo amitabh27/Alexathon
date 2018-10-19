@@ -63,4 +63,6 @@ Third Party APIs : Google,RailwayAPI,GoIbibo. <br>
 
 
 
+<h4>Architecture</h4>
 
+![archi-DB0](https://github.com/amitabh27/Alexathon/blob/master/REST%20Server/archi.png)<br>
