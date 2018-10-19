@@ -42,7 +42,7 @@ The Functions of the Bot can be classified broadly into 4 categories:
 2.	Specific Airline = Gives the list of all flights flying between two endpoints of a specific airline. Details include flight number, available seats, fare.
 
 
-<b>3. Buses :</b>
+<b>3. Buses :</b><br>
 List of Buses= Gives the list of all buses travelling between two endpoints on any given date which includes details like bus number, Travels Name, departure time and fare.
 
 
