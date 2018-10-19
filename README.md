@@ -65,4 +65,4 @@ Third Party APIs : Google,RailwayAPI,GoIbibo. <br>
 
 <h5> Working Demo of the skill </h5>
 
-[![Watch the video](https://github.com/amitabh27/Alexathon/blob/master/REST%20Server/archi.png)](https://www.youtube.com/watch?v=EP5G0mf56pA&t=94s)
+[![Watch the video](https://github.com/amitabh27/Alexathon/blob/master/REST%20Server/demo.png)](https://www.youtube.com/watch?v=EP5G0mf56pA&t=94s)
