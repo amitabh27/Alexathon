@@ -92,7 +92,7 @@ const first = (source, destination, date, callback) =>
 							
     
 	console.log(s+"    "+d);							
-	request('http://developer.goibibo.com/api/search/?app_id=4e57b2b4&app_key=55558649cf92aa2cda8b968a3c4b2707&source='+s		+'&destination='+d+'&dateofdeparture='+date+'&seatingclass=E&adults=1&children=0&infants=0&counter=100', function (error, response, body) {
+	request('http://developer.goibibo.com/api/search/?app_id=..ID..&app_key=..Key..&source='+s		+'&destination='+d+'&dateofdeparture='+date+'&seatingclass=E&adults=1&children=0&infants=0&counter=100', function (error, response, body) {
     if (!error && response.statusCode == 200) 
 	{
 	console.log(body);
@@ -170,7 +170,7 @@ const second = (source, destination, date,airline,classs,callback) => {
 	if(classs=='business' || classs=='Business')
 		classs='B';
 	
-	request('http://developer.goibibo.com/api/search/?app_id=4e57b2b4&app_key=55558649cf92aa2cda8b968a3c4b2707&source='+s+'&destination='+d+'&dateofdeparture='+date+'&seatingclass='+classs+'&adults=1&children=0&infants=0&counter=100', function (error, response, body) {
+	request('http://developer.goibibo.com/api/search/?app_id=..ID..&app_key=..Key..&source='+s+'&destination='+d+'&dateofdeparture='+date+'&seatingclass='+classs+'&adults=1&children=0&infants=0&counter=100', function (error, response, body) {
     if (!error && response.statusCode == 200) 
 	{
 	console.log(body);
@@ -238,7 +238,7 @@ const third = (source, destination, date,classs,callback) => {
 	if(classs=='business' || classs=='Business')
 		classs='B';
 	
-	request('http://developer.goibibo.com/api/search/?app_id=4e57b2b4&app_key=55558649cf92aa2cda8b968a3c4b2707&source='+s+'&destination='+d+'&dateofdeparture='+date+'&seatingclass='+classs+'&adults=1&children=0&infants=0&counter=100', function (error, response, body) {
+	request('http://developer.goibibo.com/api/search/?app_id=..ID..&app_key=..Key..&source='+s+'&destination='+d+'&dateofdeparture='+date+'&seatingclass='+classs+'&adults=1&children=0&infants=0&counter=100', function (error, response, body) {
     if (!error && response.statusCode == 200) 
 	{
 	//console.log(body);
@@ -292,7 +292,7 @@ const fourth = (location,callback) => {
 
 	var type="food";
 	//var location=req.params.location;
-	var key='AIzaSyCweXwBZ82TU1ZdOCFoDFYhx9l75vh6E50';
+	var key='.https';
 	var result="";
 	request('https://maps.googleapis.com/maps/api/place/textsearch/json?query='+location+'+city+food&language=en&key='+key, function (error, response, body) {
 	if (!error && response.statusCode == 200) 
@@ -440,7 +440,7 @@ const seventh = (source, destination, date,callback) => {
 	var result="";
 	source=source.toLowerCase();
 	destination=destination.toLowerCase();
-	request('http://developer.goibibo.com/api/bus/search/?app_id=4e57b2b4&app_key=55558649cf92aa2cda8b968a3c4b2707&format=json&source='+source+'&destination='+destination+'&dateofdeparture='+date, function (error, response, body) {
+	request('http://developer.goibibo.com/api/bus/search/?app_id=..ID..&app_key=..Key..&format=json&source='+source+'&destination='+destination+'&dateofdeparture='+date, function (error, response, body) {
 	if (!error && response.statusCode == 200) 
 	{
 	var o=JSON.parse(body);
@@ -486,7 +486,7 @@ alexa ask travel assistant tell me the live status of train twelve thousand six 
 */
 
 const eighth = (train,date,callback) => {
-	var key='blm7bvoxmt';
+	var key='..Key..';
 	//var train=req.params.train;
 	//var date=req.params.date;
 	var result="";
@@ -532,7 +532,7 @@ alexa ask travel assistant tell me the pnr status of number 4803123763
 
 
 const ninth = (pnr,callback) => {
-	var key='blm7bvoxmt';
+	var key='..Key..';
 	//var pnr=req.params.pnr;
 	var result="";
 	var flag=0;
@@ -569,7 +569,7 @@ alexa ask travel assistant give me the list of cancelled trains on sixteen octob
 */
 const tenth = (date,callback) => {
 	//var date=req.params.date;
-	var key='blm7bvoxmt';
+	var key='..Key..';
 	var result="";
 	var flag=0;
 	request('http://api.railwayapi.com/v2/cancelled/date/'+date+'/apikey/'+key+'/', function (error, response, body) {
@@ -608,7 +608,7 @@ const eleventh = (date,callback) => {
 
 
 	//var date=req.params.date;
-	var key='blm7bvoxmt';
+	var key='..Key..';
 	var result="";
 	var flag=0;
 	request('http://api.railwayapi.com/v2/rescheduled/date/'+date+'/apikey/'+key+'/', function (error, response, body) {
@@ -645,7 +645,7 @@ alexa ask travel assistant route of train number twelve thousand six hundred and
 */
 const twelth = (train,callback) => {
 	//var train=req.params.train;
-	var key='blm7bvoxmt';
+	var key='..Key..';
 	var result="";
 	request('http://api.railwayapi.com/v2/route/train/'+train+'/apikey/'+key+'/', function (error, response, body) {
     if (!error && response.statusCode == 200) 
@@ -713,7 +713,7 @@ const twelth = (train,callback) => {
 const thirteen = (source, destination, date, callback) => 
 {
 
-	var key='blm7bvoxmt';
+	var key='..Key..';
 	source=source.toUpperCase();
 	destination=destination.toUpperCase();
 	
@@ -792,7 +792,7 @@ alexa ask travel assistant which trains are arriving at the bangalore station in
 const fourteen = (source,hours,callback) => {
 	//var source=req.params.source;
 	//var hours=req.params.hours;
-	var key='blm7bvoxmt';
+	var key='..Key..';
 	source=source.toUpperCase();
 	var rsource=source.replace(/\s+/, "");
     	var result="";
@@ -852,7 +852,7 @@ alexa ask travel assistant how many seats are available for train with number tw
 
 */
 const fifteen = (date,source,destination,train,clas,quota,callback) => {
-	var key='blm7bvoxmt';
+	var key='..Key..';
 	source=source.toUpperCase();
 	destination=destination.toUpperCase();
 	var rsource=source.replace(/\s+/, "");
